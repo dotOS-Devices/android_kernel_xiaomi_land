@@ -339,6 +339,7 @@ static void mdss_fb_set_bl_brightness(struct led_classdev *led_cdev,
 		MDSS_BRIGHT_TO_BL1(bl_lvl, value, mfd->panel_info->bl_min, mfd->panel_info->bl_max,
 				1, mfd->panel_info->brightness_max);
 
+
 	}
 
 	if (bl_lvl && !value)
